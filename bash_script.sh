@@ -1,5 +1,5 @@
 #!/bin/bash
-echo hello heba
+echo hello 
 cd /home/heba
 rm -r myDirectory
  mkdir myDirectory
@@ -10,5 +10,5 @@ cd ./SecondDirectory
  cp myNotePaper  /home/heba/myDirectory
 cd ../
  mv myNotePaper myOldNotePaper
- echo bye heba
+ echo bye 
  
