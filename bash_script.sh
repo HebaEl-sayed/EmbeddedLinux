@@ -1,14 +1,10 @@
-#!/bin/bash
-echo hello 
-cd /home/heba
-rm -r myDirectory
- mkdir myDirectory
-cd ./myDirectory
- mkdir SecondDirectory
-cd ./SecondDirectory
- touch myNotePaper
- cp myNotePaper  /home/heba/myDirectory
-cd ../
- mv myNotePaper myOldNotePaper
- echo bye 
+#!/usr/bin/bash
+export HELLO
+set Local
+if [ -e ~/.bashrc ]
+then 
+  echo "HELLO=$HOSTNAME" >> $HOME/.bashrc
+  echo "Local=$(whoami)" >> $HOME/.bashrc
  
+fi 
+gnome-terminal
