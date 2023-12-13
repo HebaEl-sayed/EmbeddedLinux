@@ -3,7 +3,7 @@
 username='heba_fouad'       
 groupname='mousa'    
 
- sudo useradd -m "$username"
+ sudo useradd  "$username"
  
  if grep -q "heba_fouad" /etc/passwd; then
 	echo "the user is exist"
